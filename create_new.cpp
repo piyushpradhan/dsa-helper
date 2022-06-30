@@ -23,7 +23,7 @@ void copy_from_template(string filename) {
     created_file << template_str.str() << endl;
     // add the function declaration
     created_file << "void " << filename << "() {" << endl;
-    created_file << "\tfreopen(\"../output.txt\", \"w+\", stdout);" << endl;
+    created_file << "\tfreopen(\"output.txt\", \"w+\", stdout);" << endl;
     created_file << "}" << endl;
     add_to_header(filename);
   }
