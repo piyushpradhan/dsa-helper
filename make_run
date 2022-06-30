@@ -1,0 +1,2 @@
+g++ main.cpp solutions/*.cpp -o run
+./run
