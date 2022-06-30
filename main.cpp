@@ -31,7 +31,9 @@ void test_output() {
 int main() {
   int stdout_fd = dup(1);
   close(1);
-  something();
+  // add your created function below
+
+  // don't touch anything beyond this line
   fflush(stdout);
   dup2(stdout_fd, 1);
   test_output();
